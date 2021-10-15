@@ -1,6 +1,11 @@
 # cpp2py-zmq
 Take frames from a USB camera, send it via ZeroMQ to Python receiver.
 
+## 0. Setup environment
+- Ubuntu 20.04
+- Install OpenCV and `cppzmq` https://github.com/zeromq/cppzmq
+
+
 ## 1. Compile C++ code
 ```
 cmake .
@@ -25,8 +30,6 @@ At the secondaly  terminal.
 ```
 python sub.py
 ```
-
-
 
 ## 5. Reference
 https://stackoverflow.com/questions/55619871/how-to-i-transfer-an-imageopencv-matrix-numpy-array-from-c-publisher-to-pyth
