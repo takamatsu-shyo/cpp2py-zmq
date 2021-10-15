@@ -12,7 +12,6 @@ receiver.setsockopt_string(zmq.SUBSCRIBE, "")
 while(True):
     image_bytes = receiver.recv()
     image = numpy.array(Image.open(io.BytesIO(image_bytes)))
-
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
     cv2.imshow("Py Frame", image) 
