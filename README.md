@@ -1,5 +1,5 @@
 # cpp2py-zmq
-Take frames from a USB camera, send it via ZeroMQ to Python subscriber.
+Take frames from a USB camera, send them via ZeroMQ to Python subscriber.
 
 ## 0. Setup environment
 - Ubuntu 20.04
